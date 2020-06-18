@@ -1,0 +1,14 @@
+To add a new level, add a new file with the following content, on separate lines, to the levels folder:
+
+-name of the level
+-number of waves
+-enemies contained in waves, separated by spaces, each wave on a separate line
+-available towers, separated by spaces
+-maximum health of the base
+-money at the start of the level
+-filename of the map
+
+
+
+
+Additionally, add the name of the new level file on a new line in the file levels.txt.
