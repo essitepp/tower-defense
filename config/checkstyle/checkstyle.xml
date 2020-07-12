@@ -22,9 +22,8 @@
 
     </module>
     <module name="SuppressionFilter">
-		<!-- <property name="file" value="${configDir}/suppressions.xml" /> -->
 		<property name="file" value="${suppressionFile}" default="suppressions.xml"/>
-		<!-- <property name="optional" value="false" /> -->
+		<property name="optional" value="false" />
 	</module>
 
     

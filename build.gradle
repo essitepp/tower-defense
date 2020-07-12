@@ -50,8 +50,7 @@ jacocoTestReport {
 
 checkstyle {
     configFile = project(':').file('config/checkstyle/checkstyle.xml')
-    // configProperties = ['configDir': rootProject.file('config/checkstyle')]
-    configProperties = ["suppressionFile": project(':').file('config/checkstyle/suppressions.xml')]
+    configProperties = ["suppressionFile" : project(':').file('config/checkstyle/suppressions.xml')]
 }
 
 // allprojects {
