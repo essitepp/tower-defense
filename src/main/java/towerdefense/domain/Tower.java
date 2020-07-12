@@ -11,7 +11,7 @@ public class Tower {
 
     public Tower(String name, int cost, int power, int cooldown, int range) {
         this.name = name;
-        this.cost = cost;
+         this.cost = cost;
         this.power = power;
         this.cooldown = cooldown;
         this.range = range;

@@ -1,5 +1,6 @@
 plugins {
     id 'org.openjfx.javafxplugin' version '0.0.8'
+    id 'checkstyle'
 }
 
 apply plugin: 'java'
@@ -45,6 +46,11 @@ jacocoTestReport {
             'towerdefense/ui/**'])
         }))
     }
+}
+
+checkstyle {
+    configFile = rootProject.file('config/checkstyle/checkstyle.xml')
+    configProperties = ['configDir': rootProject.file('config/checkstyle')]
 }
 
 // allprojects {
